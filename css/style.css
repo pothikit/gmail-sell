@@ -28,12 +28,7 @@ button.navbar-toggler {
 
 .top-section{
     background: linear-gradient(#130e152c, #130e152c), url("../img/top-bg.jpeg");
-    /* background: linear-gradient(rgba(135, 80, 156, 0.8), rgba(135, 80, 156, 0.8)), url(img/top-bg.jpg); */
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 80vh;
-    z-index: 999;
+
 }
 .about-top{
     letter-spacing: 2px;
