@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Hanuman', serif;
+    font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+.header-top a{
+    color: white !important;
+}
+nav{
+    background-color: #009EDE;
+}
+nav a{
+    color: white !important;
+}
+/* --------------------------------------------------overwrite the bs code------------------------------ */
+button.navbar-toggler {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+/* ---------------------------------------------------top section starts from here  ------------------------------- */
+
+.top-section{
+    background: linear-gradient(#130e152c, #130e152c), url("../img/top-bg.jpeg");
+    /* background: linear-gradient(rgba(135, 80, 156, 0.8), rgba(135, 80, 156, 0.8)), url(img/top-bg.jpg); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    z-index: 999;
+}
+.about-top{
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-left-content{
+    transform: translatey(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------ responsive for ------------------------------------------ */
+@media (max-width: 992px) {
+    .devider a{
+        border-bottom: 2px solid black;
+    }
+    .main-nav-ul{
+        flex-direction: column;
+    }
+}
