@@ -27,7 +27,9 @@ button.navbar-toggler {
 /* ---------------------------------------------------top section starts from here  ------------------------------- */
 
 .top-section{
-    background: linear-gradient(#130e152c, #130e152c), url("../img/top-bg.jpeg");
+    background: linear-gradient(#130e1582, #130e1582), url("../img/top-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .about-top{
