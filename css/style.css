@@ -41,14 +41,14 @@ button.navbar-toggler {
 }
 .service-icon{
     transition: all .4s;
-    border-width: 10px !important;
+    border-width: 8px !important;
+    padding: 50px;
 }
 .card{
     transition: .5s;
 }
 .card:hover{
-    box-shadow: 0 0 100px #0000001a,
-                10px 10px 500px #0000001a;
+    box-shadow: 0 0 60px #0000001a
 }
 .srvices-part:hover .service-icon{
     background: #009EDE;
