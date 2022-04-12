@@ -12,6 +12,7 @@
 /* -------------------------------------------------------- root css- --------------------------------------------- */
 :root{
     --background-color: #07b1f4;
+    --gray-text: #54595F;
 }
 
 .header-top a{
@@ -59,11 +60,11 @@ button.navbar-toggler {
     box-shadow: 0 0 60px #0000001a
 }
 .srvices-part:hover .service-icon{
-    background: #009EDE;
+    background: var(--background-color);
     color: white !important;
 }
 .service-icon{
-    color: #009EDE !important;
+    color: var(--background-color) !important;
 }
 .know-more-btn{
     background-color: var(--background-color);
@@ -79,7 +80,7 @@ svg.svg-inline--fa.fa-circle-check{
     color: var(--background-color) !important;
 }
 .google-section ul li{
-    color: #54595F;
+    color: var(--gray-text);
 }
 
 
