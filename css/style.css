@@ -76,13 +76,19 @@ button.navbar-toggler {
     .main-nav-ul{
         flex-direction: column;
     }
+    .service-section .service-p{
+        width: 100% !important;
+    }
+    .image-div img{
+        max-width: 100%;
+        object-fit: cover;
+    }
 }
 
 
 /* ------------------------------------------------------------ responsive for 767------------------------------------------ */
-@media (max-width: 676px) {
-    /* .card-p{
-        width: 100% !important;
-        font-size: 10px !important;
-    } */
+@media (max-width: 767px) {
+ .header-top {
+     display: none !important;
+ }
 }
