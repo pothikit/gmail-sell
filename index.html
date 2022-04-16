@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link for google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <!-- link for fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- link for bs css -->
@@ -243,18 +243,18 @@
   </div><!--container-->
 </section>
 <!-- ----------------------------------------------------------- our-service setion----------------------------------------- -->
-<section class="our-service py-5">
+<section class="our-service">
   <div class="container">
-    <div class="section-top text-center py-5">
+    <div class="section-top text-center pt-5">
       <span class="text-primary text-center d-block about-top fw-bold text-uppercase py-3">out service</span>
       <h1 class="text-center fw-bolder py-3">Find the financial service you need</h1>
       <p class="w-75 service-p m-auto">Lorem Ipsum isIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy</p>
     </div><!--section-top-->
-    <div class="row ms-lg-5 ps-lg-5">
-      <div class="col-lg-4">
+    <div class="arrow-section  d-flex justify-content-center">
+      <div class="arrow-item-1 ms-5">
         <div class="gmail border-0 position-relative">
           <div class="new-mail">
-            <div class="number d-inline-block"><h3 class="m-0 p-2 px-3text-white">01</h3></div>
+            <div class="number d-inline-block"><h3 class="m-0 p-1 p-md-2 px-md-3 text-white">01</h3></div>
             <div class="gmail-content py-5">
               <h3 class="service-title fw-bold text-capitalize">New gmail for sell</h3>
               <p class="w-75">Just fill out our simple form and we will check offer's from all the top provider for you and second</p>
@@ -263,22 +263,22 @@
           <img class="arrow position-absolute w-75" src="img/arrow.png" alt="">
         </div><!--gmail-->
       </div><!--col-lg-4-->
-      <div class="col-lg-4">
-        <div class="gmail border-0 position-relative mt-5">
+      <div class="arrow-item-2 ms-5">
+        <div class="gmail border-0 position-relative mt-sm-5 mt-4">
           <div class="old-mail">
-            <div class="number number-2 d-inline-block"><h3 class="m-0 p-2 px-3 text-white">02</h3></div>
+            <div class="number number-2 d-inline-block"><h3 class="m-0 p-1 p-md-2 px-md-3 text-white">02</h3></div>
               <div class="gmail-content py-5">
                 <h3 class="service-title fw-bold text-capitalize">Old gmail for sell</h3>
                 <p class="w-75">Just fill out our simple form and we will check offer's from all the top provider for you and second</p>
               </div>
           </div>
-          <img class="arrow arrow2 position-absolute w-75" src="img/arrow 2.png" alt="arrow">
+          <img class="arrow2 position-absolute w-75" src="img/arrow 2.png" alt="arrow">
         </div><!--gmail-->
       </div><!--col-lg-4-->
-      <div class="col-lg-4">
+      <div class="arrow-item-3 ms-5">
         <div class="gmail border-0 position-relative m-auto">
           <div class="google-voice">
-            <div class="number number-3 d-inline-block"><h3 class="m-0 p-2 px-3text-white">03</h3></div>
+            <div class="number number-3 d-inline-block"><h3 class="m-0 p-1 p-md-2 px-md-3 text-white">03</h3></div>
             <div class="gmail-content py-5">
               <h3 class="service-title fw-bold text-capitalize">google voice for sell</h3>
               <p class="w-75">Just fill out our simple form and we will check offer's from all the top provider for you and second</p>
@@ -289,6 +289,227 @@
     </div><!--row-->
   </div><!--container-->
 </section>
+<!-- --------------------------------------------------------- pricing-tab-table-------------------------------------- -->
+<section class="pricing-tab pb-5">
+  <div class="container">
+    <div class="section-top text-center py-5">
+      <span class="text-primary text-center d-block about-top fw-bold text-uppercase py-3">out service</span>
+      <h1 class="text-center fw-bolder py-3">Our pricing table</h1>
+     </div><!--section-top-->
+     <!-- ------------------------------------------------- tab-functionality-------------- -->
+     <ul class="nav nav-tabs bg-light border-0 mb-5 w-75 m-auto" id="myTab" role="tablist">
+      <li class="nav-item w-50" role="presentation">
+        <button class="nav-link active btn w-100 rounded-0 text-dark py-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#single-package" type="button" role="tab" aria-controls="home" aria-selected="true">singe package</button>
+      </li>
+      <li class="nav-item w-50" role="presentation">
+        <button class="nav-link btn w-100 rounded-0 text-dark py-3" id="profile-tab" data-bs-toggle="tab" data-bs-target="#combo-package" type="button" role="tab" aria-controls="profile" aria-selected="false">Combo package</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="single-package" role="tabpanel" aria-labelledby="home-tab">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="pricing-table-content border-3 border p-3 text-center rounded rounded-3">
+              <h3 class="card-title py-2 fw-bold h1">card-title 1</h3>
+              <span>$ per 1 account</span>
+              <hr>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li class="pb-2 border-bottom">2021 Accounts</li>
+                  <li class="py-2 border-bottom">New Fresh Accounts</li>
+                  <li class="py-2 border-bottom">Phone Verified</li>
+                  <li class="py-2 border-bottom">Stable Long Lasting</li>
+                  <li class="py-2 border-bottom">Create From Different IP</li>
+                  <li class="py-2 border-bottom">Recovery Email Added</li>
+                  <li class="py-2 border-bottom">3 Days Replacements</li>
+                  <li class="py-2">24×7 Customer Support</li>
+                  <button class="btn custom-btn w-100">Order now</button>
+                </ul>
+              </div>
+            </div><!--pricing-table-content-->
+          </div><!--col-md-4-->
+          <div class="col-lg-4">
+            <div class="pricing-table-content border-3 border p-3 text-center rounded rounded-3">
+              <h3 class="card-title py-2 fw-bold h1">card-title 1</h3>
+              <span>$ per 1 account</span>
+              <hr>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li class="pb-2 border-bottom">2021 Accounts</li>
+                  <li class="py-2 border-bottom">New Fresh Accounts</li>
+                  <li class="py-2 border-bottom">Phone Verified</li>
+                  <li class="py-2 border-bottom">Stable Long Lasting</li>
+                  <li class="py-2 border-bottom">Create From Different IP</li>
+                  <li class="py-2 border-bottom">Recovery Email Added</li>
+                  <li class="py-2 border-bottom">3 Days Replacements</li>
+                  <li class="py-2">24×7 Customer Support</li>
+                  <button class="btn custom-btn w-100">Order now</button>
+                </ul>
+              </div>
+            </div><!--pricing-table-content-->
+          </div><!--col-md-4-->
+          <div class="col-lg-4">
+            <div class="pricing-table-content border-3 border p-3 text-center rounded rounded-3">
+              <h3 class="card-title py-2 fw-bold h1">card-title 1</h3>
+              <span>$ per 1 account</span>
+              <hr>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li class="pb-2 border-bottom">2021 Accounts</li>
+                  <li class="py-2 border-bottom">New Fresh Accounts</li>
+                  <li class="py-2 border-bottom">Phone Verified</li>
+                  <li class="py-2 border-bottom">Stable Long Lasting</li>
+                  <li class="py-2 border-bottom">Create From Different IP</li>
+                  <li class="py-2 border-bottom">Recovery Email Added</li>
+                  <li class="py-2 border-bottom">3 Days Replacements</li>
+                  <li class="py-2">24×7 Customer Support</li>
+                  <button class="btn custom-btn w-100">Order now</button>
+                </ul>
+              </div>
+            </div><!--pricing-table-content-->
+          </div><!--col-md-4-->
+         </div><!--row-->
+      </div><!--tab-pane fade show active-->
+      <!-- ----------------------------------------------------------- combo-package---------------------- -->
+      <div class="tab-pane fade" id="combo-package" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="pricing-table-content border-3 border p-3 text-center rounded rounded-3">
+              <h3 class="card-title py-2 fw-bold h1">card-title 1</h3>
+              <span>$ per 1 account</span>
+              <hr>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li class="pb-2 border-bottom">2021 Accounts</li>
+                  <li class="py-2 border-bottom">New Fresh Accounts</li>
+                  <li class="py-2 border-bottom">Phone Verified</li>
+                  <li class="py-2 border-bottom">Stable Long Lasting</li>
+                  <li class="py-2 border-bottom">Create From Different IP</li>
+                  <li class="py-2 border-bottom">Recovery Email Added</li>
+                  <li class="py-2 border-bottom">3 Days Replacements</li>
+                  <li class="py-2">24×7 Customer Support</li>
+                  <button class="btn custom-btn w-100">Order now</button>
+                </ul>
+              </div>
+            </div><!--pricing-table-content-->
+          </div><!--col-md-4-->
+          <div class="col-lg-4">
+            <div class="pricing-table-content border-3 border p-3 text-center rounded rounded-3">
+              <h3 class="card-title py-2 fw-bold h1">card-title 2</h3>
+              <span>$ per 1 account</span>
+              <hr>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li class="pb-2 border-bottom">2021 Accounts</li>
+                  <li class="py-2 border-bottom">New Fresh Accounts</li>
+                  <li class="py-2 border-bottom">Phone Verified</li>
+                  <li class="py-2 border-bottom">Stable Long Lasting</li>
+                  <li class="py-2 border-bottom">Create From Different IP</li>
+                  <li class="py-2 border-bottom">Recovery Email Added</li>
+                  <li class="py-2 border-bottom">3 Days Replacements</li>
+                  <li class="py-2">24×7 Customer Support</li>
+                  <button class="btn custom-btn w-100">Order now</button>
+                </ul>
+              </div>
+            </div><!--pricing-table-content-->
+          </div><!--col-md-4-->
+          <div class="col-lg-4">
+            <div class="pricing-table-content border-3 border p-3 text-center rounded rounded-3">
+              <h3 class="card-title py-2 fw-bold h1">card-title 3</h3>
+              <span>$ per 1 account</span>
+              <hr>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li class="pb-2 border-bottom">2021 Accounts</li>
+                  <li class="py-2 border-bottom">New Fresh Accounts</li>
+                  <li class="py-2 border-bottom">Phone Verified</li>
+                  <li class="py-2 border-bottom">Stable Long Lasting</li>
+                  <li class="py-2 border-bottom">Create From Different IP</li>
+                  <li class="py-2 border-bottom">Recovery Email Added</li>
+                  <li class="py-2 border-bottom">3 Days Replacements</li>
+                  <li class="py-2">24×7 Customer Support</li>
+                  <button class="btn custom-btn w-100">Order now</button>
+                </ul>
+              </div>
+            </div><!--pricing-table-content-->
+          </div><!--col-md-4-->
+         </div><!--row-->
+      </div><!--tab-pane fade-->
+    </div>
+  </div><!--container-->
+</section>
+
+<!-- ------------------------------------------------------- footer starts from here ----------------------------------------- -->
+<footer>
+  <div class="footer-top py-4">
+    <div class="container">
+      <div class="footer-top-content text-white d-flex align-items-center justify-content-center">
+        <h5 class="fw-bold text-uppercase m-0">be touch with us :</h5>
+        <div class="form-group w-50 m-auto d-flex">
+          <input class="form-control" type="text" placeholder="Enter your Email">
+          <button class="btn btn-outline-light custom-btn ms-2">Subscribe</button>
+        </div><!--form-group-->
+        <div class="footer-social-icon">
+          <ul class="list-unstyled d-flex align-items-center m-0">
+            <li class="px-2"><i class="fab fa-facebook fa-2x"></i></li>
+            <li class="px-2"><i class="fab fa-twitter fa-2x"></i></li>
+            <li class="px-2"><i class="fab fa-youtube fa-2x"></i></li>
+          </ul>
+        </div>
+      </div><!--footer-top-content -->
+    </div><!--container-->
+  </div><!--footer-top-->
+  <div class="footer-bottom pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="footer-bottom-content">
+            <div class="footer-content-title">
+              <h3 class="m-0 text-capitalize fw-bold">24/7 customer support</h3>
+              <div class="border-bottom mt-3 custom-border border-2 position-relative m-0"></div>
+                 <div class="footer-content-details mt-4">
+                   <ul class="list-unstyled">
+                     <li class="d-flex py-2 align-items-center"><i class="fab fa-whatsapp fa-2x me-3"></i><span class="h5 fw-normal m-0">+8801719375526</span></li>
+                     <li class="d-flex py-2 align-items-center"><i class="fab fa-skype fa-2x me-3"></i><span class="h5 fw-normal m-0">ashiqur.rahman233</span></li>
+                     <li class="d-flex py-2 align-items-center"><i class="fab fa-telegram-plane fa-2x me-3"></i><span class="h5 fw-normal m-0">@ripon65</span></li>
+                     <li class="d-flex py-2 align-items-center"><i class="fas fa-envelope fa-2x me-3"></i><span class="h5 fw-normal m-0">support@gmail-sell.com</span></li>
+                   </ul>
+                 </div>
+            </div>
+          </div>
+        </div><!--col-lg-4-->
+        <div class="col-lg-4">
+          <div class="footer-bottom-content">
+            <div class="footer-content-title">
+              <h3 class="m-0 text-capitalize fw-bold">24/7 customer support</h3>
+              <div class="border-bottom mt-3 custom-border border-2 position-relative m-0"></div>
+              <div class="footer-content-details mt-4">
+                <img class="img-fluid" src="img/payment getway.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div><!--col-lg-4-->
+        <div class="col-lg-4">
+          <div class="footer-bottom-content">
+            <div class="footer-content-title">
+              <h3 class="m-0 text-capitalize fw-bold">24/7 customer support</h3>
+              <div class="border-bottom mt-3 custom-border border-2 position-relative m-0"></div>
+              <div class="footer-content-details mt-4">
+                <ul class="list-unstyled">
+                  <li class="d-flex py-2 align-items-center"><i class="fas fa-map-marker-alt fa-2x me-3"></i><span class="h5 fw-normal m-0">19 W 24th Street New, York NY, 10010, United States</span></li>
+                  <li class="d-flex py-2 align-items-center"><i class="fas fa-map-marker-alt fa-2x me-3"></i><span class="h5 fw-normal m-0">27 Old Gloucester Street, LONDON WC1N 3AX, UNITED KINGDOM</span></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div><!--col-lg-4-->
+      </div><!--row-->
+    </div><!--container-->
+    <div class="copyright text-center py-4 bg-dark text-white">
+      <span>&copy;</span><span>2022 Gmail-sell. All Rights Reserved.</span>
+    </div>
+  </div>
+</footer>
 
 
 

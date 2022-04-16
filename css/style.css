@@ -137,55 +137,48 @@ svg.svg-inline--fa.fa-circle-check{
 .google-voice .service-title{
     color:#747AE8 !important;
 }
-/* .number::after {
-    content: "";
-    width: 99%;
-    height: 45%;
-    background-color: #58cffe52;
-    position: absolute;
-    bottom: -8px;
-    left: 10px;
-    z-index: -1;
-    transform: skewy(3deg);
-    border-radius: 15px;
-    transform-origin: right;
-    filter: blur(2px);
-}
-.number::before {
-    content: "";
-    width: 45%;
-    height: 99%;
-    background-color: #58cffe52;
-    position: absolute;
-    bottom: 0;
-    z-index: -2;
-    right: -7px;
-    transform: skewX(3deg);
-    border-radius: 15px;
-    filter: blur(2px);
-    transform-origin: right;
-} */
-
-/* .number::after{
-    content: "";
-    background-color: gray;
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: skew(10deg);
-    border-radius: 10px;
-    z-index: -1;
-} */
 .arrow {
-    top: 7%;
-    left: 28%;    transform: rotate(5deg);
+    top: 4%;
+    right: -10%;    transform: rotate(5deg);
     transform: rotate(7deg);
 }
 .arrow2{
-    top: 6%;
+    top: 2%;
+    right: -12%;
     transform: rotate(-9deg);
+}
+.arrow-section{
+    margin-left: 100px;
+}
+
+/* ---------------------------------------------------------- pricing-tab--------------------------------------------- */
+.nav-tabs .nav-item .active{
+    background-color: var(--background-color);
+    color: white !important;
+    box-shadow: none !important;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------- footer section ----------------------------------------------------- */
+.footer-top{
+    background-color: var(--background-color);
+}
+.custom-border{
+    border-color: var(--background-color) !important;
+}
+.custom-border::before{
+    content: "";
+    width: 30%;
+    height: 5px;
+    background-color: var(--background-color);
+    position: absolute;
+    bottom: -1px;
+    left: 0;
 }
 
 
@@ -207,10 +200,77 @@ svg.svg-inline--fa.fa-circle-check{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------ responsive max-width 1300px ------------------------------------ */
+
+
+@media (max-width: 1400px) {
+    
+    .arrow {
+        right: -15%;
+    }
+    .arrow2{
+        right: -15%;
+    }
+    .arrow-section{
+        margin-left: initial !important;
+    }
+}
 
 
 /* ------------------------------------------------------------ responsive for 992------------------------------------------ */
 @media (max-width: 992px) {
+    /* arrow */
+    .arrow {
+        right: -10%;
+    }
+    .arrow2{
+        right: -10%;
+    }
+    .arrow-section h3{
+        font-size:18px !important;
+    }
+    
+    .arrow-section img{
+        width: 70% !important;
+    }
     /* .top-section{
         height: initial;
     } */
@@ -228,14 +288,118 @@ svg.svg-inline--fa.fa-circle-check{
         object-fit: cover;
     }
     .container{
-        padding: initial !important;
+        padding: 0 10px !important;
     }
 }
 
 
-/* ------------------------------------------------------------ responsive for 767------------------------------------------ */
-@media (max-width: 767px) {
+/* ------------------------------------------------------------ responsive for 768------------------------------------------ */
+@media (max-width: 768px) {
  .header-top {
      display: none !important;
  }
+     /* arrow */
+     .arrow {
+         top: 5%;
+        right: 3%;
+    }
+    .arrow2{
+        right: 3%;
+        top: -1%;
+    }
+    .arrow-section img{
+        width: 70% !important;
+    }
+    .number h3{
+        font-size: 25px !important;
+    }
+    .gmail-content h3{
+        font-size:15px !important;
+    }
+    
+    .gmail-content p{
+        font-size:13px !important;
+    }
+    .arrow-item-1,.arrow-item-2,.arrow-item-3{
+        margin: 0 !important;
+    }
+    .arrow-section{
+        margin-left: 50px !important;
+    }
+    /* --------------------------------------------------- reusable css --------------------------------------------- */
+    p,span{
+        font-size: 15px !important;
+    }
+    h2{
+        font-size: 24px !important;
+    }
+    h1{
+        font-size: 30px !important;
+    }
+    button{
+        font-size: 14px !important;
+    }
 }
+
+/* ------------------------------------------- max-width 576px ------------------------------------- */
+@media (max-width: 576px){
+      /* arrow */
+      .arrow {
+        top: 1%;
+       right: 3%;
+   }
+   .arrow2{
+       right: 3%;
+       top: 3%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/* ------------------------------------------- max-width 480px ------------------------------------- */
+@media (max-width: 480px) {
+    .header-top {
+        display: none !important;
+    }
+       
+       .number h3{
+           font-size:20px !important;
+       }
+       .arrow-section img{
+        width: 60% !important;
+    }
+       .gmail-content h3{
+           font-size: 12px !important;
+       }
+       .gmail-content p{
+           font-size: 10px;
+       }
+        /* arrow */
+     .arrow {
+        right: 5%;
+        top: 5%;
+    }
+    .arrow2{
+        right: 10%;
+        top: 0;
+    }
+    .arrow-section{
+        justify-content: center;
+        margin-left: 0 !important;
+  }
+
+
