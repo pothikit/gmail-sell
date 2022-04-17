@@ -24,6 +24,12 @@ nav{
 nav a{
     color: white !important;
 }
+.nav-items .nav-link{
+    padding: 12px 20px;
+}
+.nav-items .nav-link:hover{
+    background-color: var(--background-color);
+}
 /* -----------------------------------------------------reusable css --------------------------------------------------- */
 img{
     max-width: 100%;
@@ -180,8 +186,15 @@ svg.svg-inline--fa.fa-circle-check{
     bottom: -1px;
     left: 0;
 }
-
-
+/* -------------------------------------------- pricing page-----------------------------------------
+------------------------------------------------------------------------------------------------------ */
+.p-page-top{
+    height: 80vh;
+    background-color: var(--background-color);
+}
+.p-top-main{
+    transform: translateY(-50%);
+}
 
 
 
