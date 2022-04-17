@@ -157,12 +157,63 @@ svg.svg-inline--fa.fa-circle-check{
     margin-left: 100px;
 }
 
+
+
+
+/* -------------------------------------------- pricing page-----------------------------------------
+------------------------------------------------------------------------------------------------------ */
+
 /* ---------------------------------------------------------- pricing-tab--------------------------------------------- */
 .nav-tabs .nav-item .active{
     background-color: var(--background-color);
     color: white !important;
     box-shadow: none !important;
 }
+.p-page-top{
+    height: 80vh;
+    background-color:#235082;
+}
+.pricing-tab{
+    margin-top: -30%;
+}
+.pricing-table-content{
+    color: var(--background-color);
+    border-radius: 6px;
+}
+.card-title{
+    color: #2973F9;
+}
+.card-title2{
+    color: #35bb59;
+}
+ .card-text-2{
+    color: #3AA757;    
+}
+.table-row{
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -186,50 +237,6 @@ svg.svg-inline--fa.fa-circle-check{
     bottom: -1px;
     left: 0;
 }
-/* -------------------------------------------- pricing page-----------------------------------------
------------------------------------------------------------------------------------------------------- */
-.p-page-top{
-    height: 80vh;
-    background-color: var(--background-color);
-}
-.p-top-main{
-    transform: translateY(-50%);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -303,6 +310,11 @@ svg.svg-inline--fa.fa-circle-check{
     .container{
         padding: 0 10px !important;
     }
+    /* ===============================================responisve-pricing page========================= */
+    .pricing-tab{
+        margin-top: -40%;
+    }
+/* ------------------- 992 end */
 }
 
 
@@ -339,6 +351,17 @@ svg.svg-inline--fa.fa-circle-check{
     .arrow-section{
         margin-left: 50px !important;
     }
+    .subscribe-text,.footer-social-icon{
+        flex: 1;
+        font-size: 13px;
+    }
+    .search-field{
+        flex: 2;
+    }
+    /* -------------------------------------------- pricing page-------------------------------- */
+    .pricing-tab{
+        margin-top: -60%;
+    }
     /* --------------------------------------------------- reusable css --------------------------------------------- */
     p,span{
         font-size: 15px !important;
@@ -365,24 +388,12 @@ svg.svg-inline--fa.fa-circle-check{
        right: 3%;
        top: 3%;
    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   .pricing-tab{
+    margin-top: -80%;
+    }
 }
+
+
 /* ------------------------------------------- max-width 480px ------------------------------------- */
 @media (max-width: 480px) {
     .header-top {
@@ -413,5 +424,13 @@ svg.svg-inline--fa.fa-circle-check{
         justify-content: center;
         margin-left: 0 !important;
   }
+  /* pricing page */
+  
+  .pricing-tab{
+    margin-top: -90%;
+    }
+    .tab-btn{
+        font-size: 12px !important;
+    }
 }
 
