@@ -164,6 +164,9 @@ svg.svg-inline--fa.fa-circle-check{
 ------------------------------------------------------------------------------------------------------ */
 
 /* ---------------------------------------------------------- pricing-tab--------------------------------------------- */
+.big-btn-bg{
+    background: #edeef1 !important;
+}
 .nav-tabs .nav-item .active{
     background-color: var(--background-color);
     color: white !important;
@@ -189,11 +192,13 @@ svg.svg-inline--fa.fa-circle-check{
  .card-text-2{
     color: #3AA757;    
 }
-.table-row{
+.tab-radius{
     border-radius: 6px;
 }
-
-
+/* -------------------------------- table ----------------------------------- */
+.table-tab table, .table-tab tr,.table-tab td{
+    padding: 20px 5px!important;
+}
 
 
 
