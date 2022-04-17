@@ -375,7 +375,6 @@ svg.svg-inline--fa.fa-circle-check{
     .header-top {
         display: none !important;
     }
-       
        .number h3{
            font-size:20px !important;
        }
@@ -401,5 +400,5 @@ svg.svg-inline--fa.fa-circle-check{
         justify-content: center;
         margin-left: 0 !important;
   }
-
+}
 
