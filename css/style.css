@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Hanuman', serif;
-    font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Exo 2', sans-serif;
+    font-family: 'Hanuman', serif; */
     font-family: 'Roboto', sans-serif;
 }
 .container{
@@ -68,7 +68,8 @@ button.navbar-toggler {
 /* ---------------------------------------------------top section starts from here  ------------------------------- */
 
 .top-section{
-    background: linear-gradient(#130e1575, #130e1575), url("../img/top-bg.jpeg");
+    /* background: linear-gradient(#130e1575, #130e1575), url("../img/top-bg.jpeg"); */
+    background-color: #225081;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -227,6 +228,19 @@ svg.svg-inline--fa.fa-circle-check{
 
 
 /* -------------------------------------------- footer section ----------------------------------------------------- */
+.footer-bottom h5{
+    font-family: 'Exo 2', sans-serif;
+    color: #5e5e5e;
+}
+.copyright{
+    background-color: #7e7e7e;
+}
+.footer-bottom span{
+    font-size: 17px !important;
+}
+.footer-bottom{
+    background-color: #cccccc6c;
+}
 .footer-top{
     background-color: var(--background-color);
 }
@@ -239,16 +253,38 @@ svg.svg-inline--fa.fa-circle-check{
     height: 5px;
     background-color: var(--background-color);
     position: absolute;
-    bottom: -1px;
-    left: 0;
+    bottom: -2px;
+    left: 1px;
+    transform: skewx(-60deg);
 }
-
-
-
-
-
-
-
+.footer-social-icon ul li {
+    width: 40px;
+    height: 40px;
+}
+.facebook{
+    background-color: #15a3fa;
+}
+.twitter{
+    background-color: #1da1f2 !important;
+}
+.youtube{
+    background-color: #ff0000 !important;
+}
+.fa-whatsapp{
+    color: #3bc04d;
+}
+.fa-skype{
+    color: #0188db;
+}
+.fa-telegram {
+    color: #009edf;
+}
+.fa-envelope{
+    color: #1a73e8;
+}
+.fa-location-dot {
+    color: #14487c;
+}
 
 
 
@@ -380,6 +416,9 @@ svg.svg-inline--fa.fa-circle-check{
     button{
         font-size: 14px !important;
     }
+    .accordion{
+        width: 100% !important;
+    }
 }
 
 /* ------------------------------------------- max-width 576px ------------------------------------- */
@@ -436,6 +475,9 @@ svg.svg-inline--fa.fa-circle-check{
     }
     .tab-btn{
         font-size: 12px !important;
+    }
+    .gmail-content p{
+        width: 100% !important;
     }
 }
 
