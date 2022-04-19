@@ -282,18 +282,69 @@
   </div><!--container-->
 </section>
 
-<section class="our-service-tab">
+<section class="our-service-tab py-5">
   <div class="container">
     <div class="section-top text-center py-5">
-      <span class="text-primary text-center d-block about-top fw-bold text-uppercase py-3">service</span>
-      <!-- <h2 class="text-center fw-bolder py-2">Find the financial service you need</h2>
-      <p class="lh-lg w-75 service-p m-auto">Lorem Ipsum isIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy</p> -->
+      <!-- <span class="text-primary text-center d-block about-top fw-bold text-uppercase py-3">service</span> -->
+     <h2 class="text-center fw-bolder py-2">Our service tab section</h2>
+        <!--<p class="lh-lg w-75 service-p m-auto">Lorem Ipsum isIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy</p> -->
     </div><!--section-top-->
     <div class="row">
       <div class="col-lg-6">
-        .
+        <div class="testimonial">
+          <div class="slider position-relative d-flex" id="slider">
+            <button class="btn arrow-left position-absolute"><i class="fa-solid fa-angle-left fa-2x"></i></button>
+            <button class="btn arrow-right position-absolute"><i class="fa-solid fa-chevron-right fa-2x"></i></button>
+          
+            <div class="slider-item d-flex align-items-center justify-content-center position-absolute current">
+              <div class="slider-content p-5">
+                <h1>slider item 1</h1>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste vel quia reiciendis non ullam tenetur cumque laudantium rem, minus iusto.
+              </div><!--slider-content-->
+            </div><!--slider-item-->
+
+            <div class="slider-item d-flex align-items-center justify-content-center position-absolute">
+              <div class="slider-content p-5">
+                <h1>slider item 2</h1>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste vel quia reiciendis non ullam tenetur cumque laudantium rem, minus iusto.
+              </div><!--slider-content-->
+            </div><!--slider-item-->
+
+            <div class="slider-item d-flex align-items-center justify-content-center position-absolute">
+              <div class="slider-content p-5">
+                <h1>slider item 3</h1>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste vel quia reiciendis non ullam tenetur cumque laudantium rem, minus iusto.
+              </div><!--slider-content-->
+            </div><!--slider-item-->
+          </div><!--slider-->
+        </div>
       </div><!--col-lg-6-->
-      <div class="col-lg-6"></div><!--col-lg-6-->
+      <div class="col-lg-6">
+        <div class="service-tab">
+          <nav class="">
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link px-4 py-3 active fw-bold text-capitalize" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Who We are</button>
+              <button class="nav-link px-4 py-3 fw-bold text-capitalize" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">What we do</button>
+              <button class="nav-link px-4 py-3 fw-bold text-capitalize" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Whay gmail sell</button>
+            </div>
+          </nav>
+          <div class="tab-content border border-top-0 p-2" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <img class="img-fluid float-start" width="200" src="img/tab1.png" alt="">
+              <p class="m-0">You will be glad to know Gmail-sell is one of the reliable online platforms ready to serve your Gmail needs. You will be glad to know Gmail-sell is one of the reliable online platforms ready to serve your Gmail needs. You will be glad to know Gmail-sell is one of the reliable online platforms ready to serve your Gmail needs. You will be glad to know Gmail-sell is one of the reliable online platforms ready to serve your Gmail needs.</p>
+            </div><!--tab-content-->
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <img class="img-fluid float-start m-3" width="200" src="img/tab2.png" alt="">
+              <p class="m-0">WeProvide tons of ready various kinds of emails for your purpose. Contact us for your buy Gmail email account. We Provide tons of ready various kinds of emails for your purpose. Contact us for your buy Gmail email account. We Provide tons of ready various kinds of emails for your purpose. Contact us for your buy Gmail email account. We Provide tons of ready various kinds of emails for your purpose. </p>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <img class="img-fluid float-start m-3" width="200" src="img/tab3.jpg" alt="">
+              <p class="m-0">
+                promise your investment to turn into a success with us. We promise your investment to turn into a success with us. We promise your investment to turn into a success with us. We promise your investment to turn into a success with us. We promise your investment to turn into a success with us.We promise your investment to turn into a success with us.</p>
+            </div>
+          </div>
+        </div>
+      </div><!--col-lg-6-->
     </div>
   </div><!--container-->
 </section>
@@ -301,15 +352,15 @@
 <footer class="">
   <div class="footer-top py-4">
     <div class="container">
-      <div class="footer-top-content rounded text-white d-flex align-items-center justify-content-between">
-        <h5 class="fw-bold text-uppercase m-0 subscribe-text">be touch with us :</h5>
+      <div class="footer-top-content rounded text-white d-flex align-items-center justify-content-between flex-wrap">
+        <h5 class="fw-bold text-uppercase mb-3 mb-md-0 subscribe-text">be touch with us :</h5>
         <form action="">
           <div class="form-group m-auto d-flex">
-            <input class="form-control search-field w-100" type="text" placeholder="Enter your Email">
+            <input class="form-control search-field" type="text" placeholder="Enter your Email">
             <button class="btn btn-outline-light custom-btn ms-2">Subscribe</button>
           </div><!--form-group-->
         </form>
-        <div class="footer-social-icon">
+        <div class="footer-social-icon mt-3 mt-md-0">
           <ul class="list-unstyled d-flex align-items-center m-0">
             <li class="p-4 d-flex align-items-center justify-content-center rounded-circle mx-2 facebook"><i class="fab fa-facebook-f fa-2x"></i></li>
             <li class="p-4 d-flex align-items-center justify-content-center rounded-circle mx-2 twitter"><i class="fab fa-twitter fa-2x"></i></li>

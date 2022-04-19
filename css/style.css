@@ -244,6 +244,7 @@ svg.svg-inline--fa.fa-circle-check{
 .footer-top{
     background-color: var(--background-color);
 }
+
 .custom-border{
     border-color: var(--background-color) !important;
 }
@@ -285,8 +286,34 @@ svg.svg-inline--fa.fa-circle-check{
 .fa-location-dot {
     color: #14487c;
 }
+/* ------------------------------------------ slider home page -------------------------------------- */
+.slider{
+    height: 300px;
+    width: 100%;
+}
+.slider-item{
+    height: 100%;
+    width: 100%;
+    transition: .4s ease-in-out;
+    opacity: 0;
+    z-index: -1;
+}
+.current{
+    opacity: 1 !important;
+    z-index: 1 !important;
+}
+.arrow-left, .arrow-right{
+    top: 50%;
+    transform: translatey(-50%);
+}
+.arrow-right{
+    right: 0;
+}
 
-
+/* ---------------------------------------------------------------  testimonial tab ------------------------------ */
+.service-tab nav{
+    background-color: initial !important;
+}
 
 
 
@@ -393,11 +420,7 @@ svg.svg-inline--fa.fa-circle-check{
         margin-left: 50px !important;
     }
     .subscribe-text,.footer-social-icon{
-        flex: 1;
         font-size: 13px;
-    }
-    .search-field{
-        flex: 2;
     }
     /* -------------------------------------------- pricing page-------------------------------- */
     .pricing-tab{
