@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link for google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    <!-- link for fontawesome -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Hanuman:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+     <!-- link for fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- link for bs css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -36,7 +36,7 @@
     <!-- -----------------------------------------------------navber starts from here------------------- -->
 
   </header>
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow py-1 p-lg-0">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow py-2 p-lg-0">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -45,28 +45,41 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav d-flex main-nav-ul  justify-content-around w-100">
          <div class="d-flex flex-lg-row flex-column">
-           <li class="nav-items"><a class="nav-link px-4" href="index.html">Home</a></li>
-           <li class="nav-items"><a class="nav-link px-4" href="pricing.html">pricing</a></li>
-           <li class="nav-items"><a class="nav-link px-4" href="#">contact-us</a></li>
+           <li class="nav-items"><a class="nav-link px-4 text-capitalize" href="index.html">Home</a></li>
+           <li class="nav-items"><a class="nav-link px-4 text-capitalize" href="pricing.html">pricing</a></li>
+           <li class="nav-items"><a class="nav-link px-4 text-capitalize" href="contact.html">contact-us</a></li>
          </div>
+        </ul>
+        <ul class="list-unstyled m-0">
+          <li class="nav-items"><a class="nav-link px-4 payment-nav" href="payment.html">Payment</a></li>
         </ul>
       </div><!--collapse-->  
     </div><!--container-->
   </nav><!--nav end-->
   <!-- --------------------------------------------------- top section starts from here ------------------ -->
-  <section class="top-section pt-5">
-    <div class="container">
+  <section class="top-section py-5">
+    <div class="container top-container">
       <div class="row d-flex align-items-center">
-        <div class="col-lg-6">
-           <div class="top-content mt-5 mt-lg-0">
+        <div class="col-lg-7">
+           <div class="top-content me-lg-5 me-0 pe-lg-5 pe-0 mt-5 mt-lg-0">
              <span class="text-white about-top fw-bold text-uppercase">about</span>
              <h2 class="text-white py-3 lh-1 top-heading fw-bold display-3">Your credit scores should be free</h2>
              <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
            </div>
         </div><!--col-lg-6-->
-        <div class="col-lg-6">
-          <div class="image-div">
-            <img class="img-fluid mx-auto d-block" src="img/gmail woman.PNG" alt="">
+          <div class="col-lg-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="img/sliderimg/slider 1.png" class="slider-img d-block m-auto" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="img/sliderimg/slider 4.png" class="slider-img d-block m-auto" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="img/sliderimg/slider 3.png" class="slider-img d-block m-auto" alt="...">
+                </div>
+              </div>
           </div>
         </div><!--col-lg-6-->
       </div><!--row-->
@@ -290,36 +303,24 @@
         <!--<p class="lh-lg w-75 service-p m-auto">Lorem Ipsum isIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy</p> -->
     </div><!--section-top-->
     <div class="row">
-      <div class="col-lg-6">
-        <div class="testimonial">
-          <div class="slider position-relative d-flex" id="slider">
-            <button class="btn arrow-left position-absolute"><i class="fa-solid fa-angle-left fa-2x"></i></button>
-            <button class="btn arrow-right position-absolute"><i class="fa-solid fa-chevron-right fa-2x"></i></button>
-          
-            <div class="slider-item d-flex align-items-center justify-content-center position-absolute current">
-              <div class="slider-content p-5">
-                <h1>slider item 1</h1>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste vel quia reiciendis non ullam tenetur cumque laudantium rem, minus iusto.
-              </div><!--slider-content-->
-            </div><!--slider-item-->
-
-            <div class="slider-item d-flex align-items-center justify-content-center position-absolute">
-              <div class="slider-content p-5">
-                <h1>slider item 2</h1>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste vel quia reiciendis non ullam tenetur cumque laudantium rem, minus iusto.
-              </div><!--slider-content-->
-            </div><!--slider-item-->
-
-            <div class="slider-item d-flex align-items-center justify-content-center position-absolute">
-              <div class="slider-content p-5">
-                <h1>slider item 3</h1>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste vel quia reiciendis non ullam tenetur cumque laudantium rem, minus iusto.
-              </div><!--slider-content-->
-            </div><!--slider-item-->
-          </div><!--slider-->
-        </div>
+      <div class="col-lg-5">
+        <div class="testimonial border rounded">
+          <div id="carousel-slider2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="img/sliderimg2/1.jpg" class="slider-img2 d-block m-auto" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/sliderimg2/2.jpg" class="slider-img2 d-block m-auto" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/sliderimg2/3.jpg" class="slider-img2 d-block m-auto" alt="...">
+              </div>
+            </div>
+            </div>
+        </div><!--testimonial-->
       </div><!--col-lg-6-->
-      <div class="col-lg-6">
+      <div class="col-lg-7">
         <div class="service-tab">
           <nav class="">
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -334,11 +335,11 @@
               <p class="m-0">You will be glad to know Gmail-sell is one of the reliable online platforms ready to serve your Gmail needs. You will be glad to know Gmail-sell is one of the reliable online platforms ready to serve your Gmail needs. You will be glad to know Gmail-sell is one of the reliable online platforms ready to serve your Gmail needs. You will be glad to know Gmail-sell is one of the reliable online platforms ready to serve your Gmail needs.</p>
             </div><!--tab-content-->
             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-              <img class="img-fluid float-start m-3" width="200" src="img/tab2.png" alt="">
+              <img class="img-fluid float-start m-2" width="200" src="img/tab2.png" alt="">
               <p class="m-0">WeProvide tons of ready various kinds of emails for your purpose. Contact us for your buy Gmail email account. We Provide tons of ready various kinds of emails for your purpose. Contact us for your buy Gmail email account. We Provide tons of ready various kinds of emails for your purpose. Contact us for your buy Gmail email account. We Provide tons of ready various kinds of emails for your purpose. </p>
             </div>
             <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-              <img class="img-fluid float-start m-3" width="200" src="img/tab3.jpg" alt="">
+              <img class="img-fluid float-start m-2" width="200" src="img/tab3.jpg" alt="">
               <p class="m-0">
                 promise your investment to turn into a success with us. We promise your investment to turn into a success with us. We promise your investment to turn into a success with us. We promise your investment to turn into a success with us. We promise your investment to turn into a success with us.We promise your investment to turn into a success with us.</p>
             </div>

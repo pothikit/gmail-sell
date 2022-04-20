@@ -9,6 +9,9 @@
 .container{
     padding: 0 70px !important;
 }
+.top-container{
+    padding: 0 !important;
+}
 /* -------------------------------------------------------- root css- --------------------------------------------- */
 :root{
     --background-color: #07b1f4;
@@ -24,8 +27,11 @@ nav{
 nav a{
     color: white !important;
 }
+.payment-nav{
+    background-color: #006898 !important;
+}
 .nav-items .nav-link{
-    padding: 12px 20px;
+    padding: 12px 20px !important;
 }
 .nav-items .nav-link:hover{
     background-color: var(--background-color);
@@ -65,6 +71,10 @@ button.navbar-toggler {
 .navbar-toggler:focus{
     box-shadow: none;
 }
+.navbar-light .navbar-toggler-icon img{
+    width: auto !important;
+    height: 30px !important;
+}
 /* ---------------------------------------------------top section starts from here  ------------------------------- */
 
 .top-section{
@@ -73,6 +83,12 @@ button.navbar-toggler {
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+.slider-img{
+    height: 450px;
+}
+.slider-img2{
+    max-height: 300px !important;
 }
 .about-top{
     letter-spacing: 2px;
@@ -173,7 +189,7 @@ svg.svg-inline--fa.fa-circle-check{
     color: white !important;
     box-shadow: none !important;
 }
-.p-page-top{
+.pricing-page-top{
     height: 80vh;
     background-color:#235082;
 }
@@ -188,10 +204,10 @@ svg.svg-inline--fa.fa-circle-check{
     color: #2973F9;
 }
 .card-title2{
-    color: #35bb59;
+    color: #07b1f4;
 }
  .card-text-2{
-    color: #3AA757;    
+    color: #0b87b8;    
 }
 .tab-radius{
     border-radius: 6px;
@@ -200,9 +216,16 @@ svg.svg-inline--fa.fa-circle-check{
 .table-tab table, .table-tab tr,.table-tab td{
     padding: 20px 5px!important;
 }
-
-
-
+/* ------------------------------------------------------------------------------------------------------------------------------
+                                                    payment page design starts
+--------------------------------------------------------------------------------------------------------------------------------=*/
+.payment-page-top{
+    height: 80vh;
+    background: url("../img/paymentbg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+}
 
 
 
@@ -230,7 +253,7 @@ svg.svg-inline--fa.fa-circle-check{
 /* -------------------------------------------- footer section ----------------------------------------------------- */
 .footer-bottom h5{
     font-family: 'Exo 2', sans-serif;
-    color: #5e5e5e;
+    color: #4b4a4a;
 }
 .copyright{
     background-color: #7e7e7e;
@@ -239,7 +262,7 @@ svg.svg-inline--fa.fa-circle-check{
     font-size: 17px !important;
 }
 .footer-bottom{
-    background-color: #cccccc6c;
+    background-color: #b8d1ed3b;
 }
 .footer-top{
     background-color: var(--background-color);
@@ -382,18 +405,23 @@ svg.svg-inline--fa.fa-circle-check{
     .pricing-tab{
         margin-top: -40%;
     }
-/* ------------------- 992 end */
+/* ------------------- 992 end ------------*/
 }
 
 
 /* ------------------------------------------------------------ responsive for 768------------------------------------------ */
 @media (max-width: 768px) {
+    /* .navbar-toggler{
+    padding: 0.25rem 0.75rem !important;
+    font-size: 1.25rem !important;
+    line-height: 1;
+    } */
  .header-top {
      display: none !important;
  }
      /* arrow */
      .arrow {
-         top: 5%;
+        top: 5%;
         right: 3%;
     }
     .arrow2{
