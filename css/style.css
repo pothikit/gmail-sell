@@ -62,11 +62,21 @@ p{
     font-family: 'Hanuman', serif;
     font-size: 24px;
 }
+
+/* ------------------------stop mosuse draging from img----- */
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    user-zoom: 20px;
+}
 /* --------------------------------------------------overwrite the bs code------------------------------ */
 button.navbar-toggler {
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 8px;
 }
 .navbar-toggler:focus{
     box-shadow: none;
@@ -411,11 +421,9 @@ svg.svg-inline--fa.fa-circle-check{
 
 /* ------------------------------------------------------------ responsive for 768------------------------------------------ */
 @media (max-width: 768px) {
-    /* .navbar-toggler{
-    padding: 0.25rem 0.75rem !important;
-    font-size: 1.25rem !important;
-    line-height: 1;
-    } */
+    .navbar-toggler{
+        top: 12px !important;
+    }
  .header-top {
      display: none !important;
  }
