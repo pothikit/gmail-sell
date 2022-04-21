@@ -234,7 +234,7 @@ svg.svg-inline--fa.fa-circle-check{
     background: url("../img/paymentbg.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center right;
+    background-position: center right 100px;
 }
 
 
@@ -347,6 +347,27 @@ svg.svg-inline--fa.fa-circle-check{
 .service-tab nav{
     background-color: initial !important;
 }
+/* ------------------------------------------------------------- payment getway ------------------------------------ */
+.payment-main .card-body img{
+    height: 100px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -493,6 +514,9 @@ svg.svg-inline--fa.fa-circle-check{
    }
    .pricing-tab{
     margin-top: -80%;
+    }
+    .payment-page-top{
+        background-position: center center;
     }
 }
 
