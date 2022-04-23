@@ -241,8 +241,24 @@ svg.svg-inline--fa.fa-circle-check{
 
 
 
-
-
+/* ---------------------------------------- contact page----------------- */
+.contact-page input, textarea{
+    background: #eef3fa !important;
+}
+.contact-page input,.contact-page textarea:focus{
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+.contact-page .submit{
+    transition: all .3s;
+}
+.contact-page .submit:hover{
+    background: green !important; 
+    color: white;
+}
+.contact-page h2{
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
 
