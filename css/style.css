@@ -69,10 +69,9 @@ img {
     -khtml-user-drag: none;
     -moz-user-drag: none;
     -o-user-drag: none;
-    user-drag: none;
     user-zoom: 20px;
 }
-/* --------------------------------------------------overwrite the bs code------------------------------ */
+/* -----------------------------------------overwrite the bs code------------------------------ */
 button.navbar-toggler {
     position: absolute;
     right: 20px;
@@ -85,7 +84,7 @@ button.navbar-toggler {
     width: auto !important;
     height: 30px !important;
 }
-/* ---------------------------------------------------top section starts from here  ------------------------------- */
+/* -----------------------------------------top section starts from here  ------------------------------- */
 
 .top-section{
     /* background: linear-gradient(#130e1575, #130e1575), url("../img/top-bg.jpeg"); */
@@ -126,7 +125,7 @@ button.navbar-toggler {
     color: var(--background-color) !important;
 }
 
-/* ---------------------------------------------------- google section--------------------------------------------- */
+/* ---------------------------------------- google section--------------------------------------------- */
 svg.svg-inline--fa.fa-circle-check{
     color: var(--background-color) !important;
 }
@@ -134,13 +133,13 @@ svg.svg-inline--fa.fa-circle-check{
     color: var(--gray-text);
 }
 
-/* ------------------------------------------------------- offer section starts ----------------------------------- */
+/* ------------------------------------------- offer section starts ----------------------------------- */
 .offer-section{
     background: linear-gradient(#ffffffda, #ffffffda), url(../img/map.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* ---------------------------------------------------------- our service section --------------------------------------- */
+/* ---------------------------------------------- our service section --------------------------------------- */
 .number{
     border-radius: 8px !important;
     position: relative;
@@ -222,10 +221,10 @@ svg.svg-inline--fa.fa-circle-check{
 .tab-radius{
     border-radius: 6px;
 }
-/* -------------------------------- table ----------------------------------- */
+/* -------------------------------- table -----------------------------------
 .table-tab table, .table-tab tr,.table-tab td{
     padding: 20px 5px!important;
-}
+} */
 /* ------------------------------------------------------------------------------------------------------------------------------
                                                     payment page design starts
 --------------------------------------------------------------------------------------------------------------------------------=*/
@@ -335,7 +334,7 @@ svg.svg-inline--fa.fa-circle-check{
 .fa-location-dot {
     color: #14487c;
 }
-/* ------------------------------------------ slider home page -------------------------------------- */
+/* ------------------------------ slider home page -------------------------------------- */
 .slider{
     height: 300px;
     width: 100%;
@@ -359,11 +358,11 @@ svg.svg-inline--fa.fa-circle-check{
     right: 0;
 }
 
-/* ---------------------------------------------------------------  testimonial tab ------------------------------ */
+/* ------------------------------------  testimonial tab ------------------------------ */
 .service-tab nav{
     background-color: initial !important;
 }
-/* ------------------------------------------------------------- payment getway ------------------------------------ */
+/* ------------------------------- payment getway ------------------------------------ */
 .payment-main .card-body img{
     height: 100px;
     width: 100%;
@@ -373,30 +372,7 @@ svg.svg-inline--fa.fa-circle-check{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------------------------------------------------ responsive max-width 1300px ------------------------------------ */
+/* ------------------------------------ responsive max-width 1300px ------------------------------------ */
 
 
 @media (max-width: 1400px) {
@@ -580,3 +556,19 @@ svg.svg-inline--fa.fa-circle-check{
     }
 }
 
+/* -------------------------- media for min-width 992---------------- */
+@media (min-width: 992px) {
+    .footer-custom-border{
+        position: relative;
+    }
+    .footer-custom-border::after{
+        content: "";
+        height: 60%;
+        width: 1px;
+        background-color: #9f9f9f;
+        position: absolute;
+        right: 1px;
+        top: 60%;
+        transform: translatey(-50%);
+    }
+}
