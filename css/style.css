@@ -21,6 +21,9 @@
 .header-top a{
     color: white !important;
 }
+.header-top{
+    background-color: #005374;
+}
 nav{
     background-color: #009EDE;
 }
@@ -497,6 +500,9 @@ svg.svg-inline--fa.fa-circle-check{
     }
     .payment-page-top{
         background-position: center center;
+    }
+    iframe{
+        height: 250px !important;
     }
 }
 
