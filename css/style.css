@@ -30,14 +30,17 @@ nav{
 nav a{
     color: white !important;
 }
-.payment-nav{
-    background-color: #006898 !important;
-}
+/* .payment-nav{
+    background-color: #a2bd09 !important;
+} */
 .nav-items .nav-link{
     padding: 12px 20px !important;
 }
 .nav-items .nav-link:hover{
     background-color: var(--background-color);
+}
+.payment-nav:hover{
+    background-color: #ffbb33ea !important;
 }
 /* -----------------------------------------------------reusable css --------------------------------------------------- */
 img{
