@@ -17,13 +17,13 @@
     --background-color: #07b1f4;
     --gray-text: #54595F;
 }
-
-.header-top a{
-    color: white !important;
-}
 .header-top{
     background-color: #005374;
 }
+.header-top a{
+    color: white !important;
+}
+
 nav{
     background-color: #009EDE;
 }
