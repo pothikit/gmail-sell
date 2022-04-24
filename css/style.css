@@ -242,7 +242,7 @@ svg.svg-inline--fa.fa-circle-check{
 
 /* ---------------------------------------- contact page----------------- */
 .contact-us-top{
-    background-image:linear-gradient(#00000053, #00000053), url("../img/contactus.jpg");
+    background-image: linear-gradient(#00000053, #00000053), url(../img/contactus.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
