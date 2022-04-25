@@ -42,6 +42,9 @@ nav a{
 .payment-nav:hover{
     background-color: #ffbb33ea !important;
 }
+.payment-nav:focus{
+    box-shadow: none !important;
+}
 /* -----------------------------------------------------reusable css --------------------------------------------------- */
 img{
     max-width: 100%;
