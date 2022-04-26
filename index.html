@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- link for bs css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- wow css animate -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- custom css link -->
     <link rel="stylesheet" href="css/style.css">
     <title>Gmail-sell</title>
@@ -62,14 +64,14 @@
     <div class="container top-container">
       <div class="row d-flex align-items-center">
         <div class="col-lg-7">
-           <div class="top-content me-lg-5 me-0 pe-lg-5 pe-0 mt-5 mt-lg-0">
+           <div class="top-content me-lg-5 me-0 pe-lg-5 pe-0 mt-5 mt-lg-0 wow slideInLeft">
              <span class="text-white about-top fw-bold text-uppercase">about</span>
              <h2 class="text-white py-3 lh-1 top-heading fw-bold display-3">Your credit scores should be free</h2>
              <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
            </div>
         </div><!--col-lg-6-->
           <div class="col-lg-5">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide slideInRight wow" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
                   <img src="img/sliderimg/slider 1.png" class="slider-img d-block m-auto" alt="...">
@@ -99,7 +101,7 @@
           <div class="srvices-part py-3">
             <div class="card border-3">
               <div class="card-body">
-               <div class="service-icon fw-bold display-3 border border-5 m-auto rounded-circle d-flex align-items-center justify-content-center" style="width: 100px; height: 100px;">
+                <div class="service-icon fw-bold display-3 border border-5 m-auto rounded-circle d-flex align-items-center justify-content-center" style="width: 100px; height: 100px;">
                 <i class="fas fa-shipping-fast display-4"></i>
                </div>
                  <h2 class="card-title text-center py-3 fw-bold text-uppercase h3">fast service</h2>
@@ -107,7 +109,7 @@
                   <button class="btn custom-btn w-50 m-auto py-2 my-3 d-block">know more +</button>
                 </div>
             </div>
-          </div>
+          </div><!--srevice-part-->
         </div><!--col-md-6-->
         <div class="col-lg-4">
           <div class="srvices-part py-3">
@@ -141,7 +143,7 @@
       
       <div class="row">
         <div class="col-lg-4">
-          <div class="srvices-part py-3">
+          <div class="srvices-part py-3 ">
             <div class="card border-3">
               <div class="card-body">
                <div class="service-icon fw-bold display-3 border border-5 m-auto rounded-circle d-flex align-items-center justify-content-center" style="width: 100px; height: 100px;">
@@ -196,12 +198,12 @@
      </div><!--section-top-->
      <div class="row">
       <div class="col-lg-4">
-        <div class="google-img">
+        <div class="google-img wow slideInLeft">
           <img class="img-fluid" src="img/fab-icon.png" alt="">
         </div>
       </div><!--col-lg-4-->
       <div class="col-lg-4">
-        <div class="listing-item">
+        <div class="listing-item wow zoomIn">
           <ul class="list-unstyled">
             <li class="d-flex align-items-center h5 lh-base"><i class="fas fa-check-circle h3 me-3"></i><span>PROVIDING ACCOUNTS IN THE EXCEL FILE.</span></li>
             <li class="d-flex align-items-center h5 lh-base my-3"><i class="fas fa-check-circle h3 me-3"></i><span>PVA\NON-PVA ACCOUNT</span></li>
@@ -213,7 +215,7 @@
         </div><!--listing-item-->
       </div><!--col-lg-4-->
       <div class="col-lg-4">
-        <div class="listing-item">
+        <div class="listing-item wow slideInRight">
           <ul class="list-unstyled">
             <li class="d-flex align-items-center h5 lh-base"><i class="fas fa-check-circle h3 me-3"></i><span>WE DON'T OPEN ACCOUNTS BY ROBOTS OR ANY OTHER 3RD PARTIES SOFTWARE</span></li>
             <li class="d-flex align-items-center h5 lh-base my-3"><i class="fas fa-check-circle h3 me-3"></i><span>BEST SERVICE IN LESS MONEY IS OUR COMMITMENT.</span></li>
@@ -434,6 +436,7 @@
 <!-- bs javascript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <!-- link for custom js -->
+<script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
 </body>
 </html>
