@@ -332,11 +332,11 @@ svg.svg-inline--fa.fa-circle-check{
     color: #14487c;
 }
 /* ------------------------------ slider home page -------------------------------------- */
-.slider{
+/* .slider{
     height: 300px;
     width: 100%;
-}
-.slider-item{
+} */
+/* .slider-item{
     height: 100%;
     width: 100%;
     transition: .4s ease-in-out;
@@ -353,7 +353,7 @@ svg.svg-inline--fa.fa-circle-check{
 }
 .arrow-right{
     right: 0;
-}
+} */
 
 /* ------------------------------------  testimonial tab ------------------------------ */
 .service-tab nav{
@@ -565,7 +565,7 @@ svg.svg-inline--fa.fa-circle-check{
         content: "";
         height: 60%;
         width: 1px;
-        background-color: #9f9f9f;
+        background-color: #e3e9f1;
         position: absolute;
         right: 1px;
         top: 60%;
