@@ -251,10 +251,11 @@ svg.svg-inline--fa.fa-circle-check{
 
 /* ---------------------------------------- contact page----------------- */
 .contact-us-top{
-    background-image: linear-gradient(#00000053, #00000053), url(../img/contactus.jpg);
+    height: 60vh;
+    background-image: url(../img/contactus.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 
@@ -546,7 +547,7 @@ svg.svg-inline--fa.fa-circle-check{
   /* pricing page */
   
   .pricing-tab{
-    margin-top: -90%;
+    margin-top: -96%;
     }
     .tab-btn{
         font-size: 12px !important;
