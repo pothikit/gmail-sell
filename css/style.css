@@ -253,7 +253,7 @@ svg.svg-inline--fa.fa-circle-check{
 .contact-us-top{
     height: 60vh;
     background-image: url(../img/contactus.png);
-    background-position: center center;
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: contain;
 }
