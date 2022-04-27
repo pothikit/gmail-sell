@@ -253,7 +253,7 @@ svg.svg-inline--fa.fa-circle-check{
 .contact-us-top{
     height: 60vh;
     background-image: url(../img/contactus.png);
-    background-position: center right;
+    background-position: top 5vh right 8vw;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -511,6 +511,10 @@ svg.svg-inline--fa.fa-circle-check{
     iframe{
         height: 250px !important;
     }
+    .contact-us-top{
+        background-position: center center;
+    }
+    
 }
 
 
