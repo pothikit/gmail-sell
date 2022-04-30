@@ -141,7 +141,6 @@ svg.svg-inline--fa.fa-circle-check{
 .google-section ul li{
     color: var(--gray-text);
 }
-
 /* ------------------------------------------- offer section starts ----------------------------------- */
 .offer-section{
     background: linear-gradient(#ffffffda, #ffffffda), url(../img/map.jpg);
@@ -174,7 +173,6 @@ svg.svg-inline--fa.fa-circle-check{
 .new-mail .service-title{
     color:#04a2c2 !important;
 }
-
 .google-voice .service-title{
     color:#747AE8 !important;
 }
@@ -191,10 +189,6 @@ svg.svg-inline--fa.fa-circle-check{
 .arrow-section{
     margin-left: 100px;
 }
-
-
-
-
 /* -------------------------------------------- pricing page-----------------------------------------
 ------------------------------------------------------------------------------------------------------ */
 
@@ -230,10 +224,6 @@ svg.svg-inline--fa.fa-circle-check{
 .tab-radius{
     border-radius: 6px;
 }
-/* -------------------------------- table -----------------------------------
-.table-tab table, .table-tab tr,.table-tab td{
-    padding: 20px 5px!important;
-} */
 /* ------------------------------------------------------------------------------------------------------------------------------
                                                     payment page design starts
 --------------------------------------------------------------------------------------------------------------------------------=*/
@@ -244,11 +234,6 @@ svg.svg-inline--fa.fa-circle-check{
     background-size: contain;
     background-position: center right 100px;
 }
-
-
-
-
-
 /* ---------------------------------------- contact page----------------- */
 .contact-us-top{
     height: 60vh;
@@ -257,22 +242,6 @@ svg.svg-inline--fa.fa-circle-check{
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -------------------------------------------- footer section ----------------------------------------------------- */
 .footer-bottom h5{
     font-family: 'Exo 2', sans-serif;
@@ -290,7 +259,6 @@ svg.svg-inline--fa.fa-circle-check{
 .footer-top{
     background-color: var(--background-color);
 }
-
 .custom-border{
     border-color: var(--background-color) !important;
 }
@@ -332,30 +300,6 @@ svg.svg-inline--fa.fa-circle-check{
 .fa-location-dot {
     color: #14487c;
 }
-/* ------------------------------ slider home page -------------------------------------- */
-/* .slider{
-    height: 300px;
-    width: 100%;
-} */
-/* .slider-item{
-    height: 100%;
-    width: 100%;
-    transition: .4s ease-in-out;
-    opacity: 0;
-    z-index: -1;
-}
-.current{
-    opacity: 1 !important;
-    z-index: 1 !important;
-}
-.arrow-left, .arrow-right{
-    top: 50%;
-    transform: translatey(-50%);
-}
-.arrow-right{
-    right: 0;
-} */
-
 /* ------------------------------------  testimonial tab ------------------------------ */
 .service-tab nav{
     background-color: initial !important;
@@ -365,14 +309,7 @@ svg.svg-inline--fa.fa-circle-check{
     height: 100px;
     width: 100%;
 }
-
-
-
-
-
 /* ------------------------------------ responsive max-width 1300px ------------------------------------ */
-
-
 @media (max-width: 1400px) {
     
     .arrow {
@@ -385,8 +322,6 @@ svg.svg-inline--fa.fa-circle-check{
         margin-left: initial !important;
     }
 }
-
-
 /* ------------------------------------------------------------ responsive for 992------------------------------------------ */
 @media (max-width: 992px) {
     /* arrow */
@@ -428,8 +363,6 @@ svg.svg-inline--fa.fa-circle-check{
     }
 /* ------------------- 992 end ------------*/
 }
-
-
 /* ------------------------------------------------------------ responsive for 768------------------------------------------ */
 @media (max-width: 768px) {
     .navbar-toggler{
